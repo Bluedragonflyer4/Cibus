@@ -11,7 +11,7 @@ public class Cheese_Curd extends Item {
                 .food(new Food.Builder()
                         .nutrition(1)
                         .saturationMod(1)
-                        .build())
+                        .build( ))
         );
     }
 }
