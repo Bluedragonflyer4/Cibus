@@ -1,0 +1,6 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "cibus:blocks/tomato_plant_stage0"
+  }
+}

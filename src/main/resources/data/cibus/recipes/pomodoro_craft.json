@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cibus:tomato"
+    },{
+      "item": "cibus:flour"
+    }
+  ],
+  "result":
+  {
+    "item": "cibus:pomodoro",
+    "count": 2
+  }
+}

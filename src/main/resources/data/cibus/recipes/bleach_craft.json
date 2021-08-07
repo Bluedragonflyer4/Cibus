@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_powder"
+    },{
+      "item": "cibus:large_bottle"
+    },{
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "result":
+  {
+    "item": "cibus:bleach",
+    "count": 1
+  }
+}

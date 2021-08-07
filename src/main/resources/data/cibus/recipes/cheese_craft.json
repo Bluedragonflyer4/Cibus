@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "aaa",
+    "axx",
+    "axx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "cibus:cheese_curd"
+    },"a":
+  {
+    "item": "minecraft:air"
+  }
+  },
+  "result":
+  {
+    "item": "cibus:cheese",
+    "count": 1
+  }
+}

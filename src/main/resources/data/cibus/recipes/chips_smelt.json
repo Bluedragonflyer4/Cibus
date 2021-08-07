@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "cibus:raw_chips"
+  },
+  "result": "cibus:chips",
+  "experience": 0.0,
+  "cookingtime": 100
+}

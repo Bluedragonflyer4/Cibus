@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cibus:cream"
+    },{
+      "item": "cibus:rennet"
+    },{
+      "item": "cibus:salt"
+    }
+  ],
+  "result":
+  {
+    "item": "cibus:cheese_curd",
+    "count": 3
+  }
+}

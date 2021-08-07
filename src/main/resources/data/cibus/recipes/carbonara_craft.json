@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cibus:salt"
+    },{
+      "item": "cibus:cheese"
+    }
+  ],
+  "result":
+  {
+    "item": "cibus:carbonara",
+    "count": 2
+  }
+}

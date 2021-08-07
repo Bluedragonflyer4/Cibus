@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "cibus:carbon_ore"
+  },
+  "result": "cibus:carbon",
+  "experience": 1.0,
+  "cookingtime": 100
+}

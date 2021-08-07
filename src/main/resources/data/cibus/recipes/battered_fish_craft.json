@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cod"
+    },{
+      "item": "cibus:flour"
+    },{
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "result":
+  {
+    "item": "cibus:battered_fish",
+    "count": 1
+  }
+}

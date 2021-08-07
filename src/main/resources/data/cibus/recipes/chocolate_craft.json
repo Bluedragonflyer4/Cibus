@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "aaa",
+    "xgx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:cocoa_beans"
+    },"g":
+  {
+    "item": "minecraft:milk_bucket"
+  },"a":
+  {
+    "item": "minecraft:air"
+  }
+  },
+  "result":
+  {
+    "item": "cibus:chocolate",
+    "count": 3
+  }
+}

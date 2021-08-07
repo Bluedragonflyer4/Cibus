@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "aaa",
+    "ggg"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "cibus:bread_crumbs"
+    },"g":
+  {
+    "item": "cibus:pastry"
+  },"a":
+  {
+    "item": "cibus:apple_slice"
+  }
+  },
+  "result":
+  {
+    "item": "cibus:apple_crumble",
+    "count": 1
+  }
+}

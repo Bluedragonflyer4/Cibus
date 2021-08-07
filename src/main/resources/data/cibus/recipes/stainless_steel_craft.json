@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cibus:steel"
+    },{
+      "item": "cibus:bleach"
+    }
+  ],
+  "result":
+  {
+    "item": "cibus:stainless_steel",
+    "count": 1
+  },
+  "item": "cibus:large_bottle",
+  "count": 1
+}
+}

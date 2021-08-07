@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "gxg",
+    "gxg",
+    "xgx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:air"
+    },"g":
+  {
+    "item": "minecraft:glass"
+  }
+  },
+  "result":
+  {
+    "item": "cibus:large_bottle",
+    "count": 6
+  }
+}

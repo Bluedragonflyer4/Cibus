@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:egg"
+  },
+  "result": "cibus:fried_egg",
+  "experience": 0.0,
+  "cookingtime": 120
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },{
+      "item": "cibus:carbon"
+    }
+  ],
+  "result":
+  {
+    "item": "cibus:steel",
+    "count": 1
+  }
+}

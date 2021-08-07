@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xbx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:oak_planks"
+    },"b":
+  {
+    "item": "minecraft:oak_button"
+  }
+  },
+  "result":
+  {
+    "item": "cibus:penne_shape",
+    "count": 16
+  }
+}
