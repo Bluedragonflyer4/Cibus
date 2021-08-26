@@ -4,6 +4,8 @@ package com.bluedragonflyer.cibus;
 import com.bluedragonflyer.cibus.events.ClientEventBusSubscriber;
 import com.bluedragonflyer.cibus.util.RegistryHandler;
 import com.bluedragonflyer.cibus.world.gen.OreGeneration;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -45,14 +47,9 @@ public class Cibus
 
     public static final ItemGroup TAB = new ItemGroup("cibusTab"){
 
-
-
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(RegistryHandler.APPLE_SLICE.get());
-        }
-
-};
+            return new ItemStack(RegistryHandler.APPLE_SLICE.get()); }};
 
 
 

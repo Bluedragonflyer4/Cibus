@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "cibus:block/kitchen_tile" }
+  }
+}

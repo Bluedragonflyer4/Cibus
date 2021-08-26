@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:polished_blackstone"
+    },{
+      "item": "cibus:grout"
+    }
+  ],
+  "result":
+  {
+    "item": "cibus:blackstone_tile",
+    "count": 1
+  }
+}

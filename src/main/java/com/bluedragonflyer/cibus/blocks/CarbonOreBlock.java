@@ -14,9 +14,7 @@ public class CarbonOreBlock extends OreBlock {
             .sound(SoundType.STONE)
             .harvestTool(ToolType.PICKAXE)
             .strength(5)
-            .requiresCorrectToolForDrops()
-
-        );
+            .requiresCorrectToolForDrops());
 
 
     }

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cibus:spaghetti"
+    },{
+      "item": "cibus:carbonara"
+    }
+  ],
+  "result":
+  {
+    "item": "cibus:spaghetti_carbonara",
+    "count": 1
+  }
+}

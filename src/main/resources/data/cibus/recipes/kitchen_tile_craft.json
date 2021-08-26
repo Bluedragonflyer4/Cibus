@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "aaa",
+    "ayx",
+    "axy"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:polished_blackstone"
+    },"y":
+  {
+    "item": "minecraft:quartz_block"
+  },"a":
+  {
+    "item": "minecraft:air"
+  }
+  },
+  "result":
+  {
+    "item": "cibus:kitchen_tile",
+    "count": 4
+  }
+}

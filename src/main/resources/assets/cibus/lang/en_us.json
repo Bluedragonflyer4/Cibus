@@ -43,6 +43,12 @@
 
   "block.cibus.carbon_ore": "Carbon Ore",
   "block.cibus.tomato_plant": "Tomato Seeds",
+  "block.cibus.basil_plant": "Basil Seeds",
+  "block.cibus.steel_block": "Steel Block",
+  "block.cibus.kitchen_tile": "Kitchen Tile",
+  "block.cibus.fancy_floor": "Fancy Floor",
+  "block.cibus.blackstone_tile": "Blackstone Tile",
+  "block.cibus.counter_light": "Counter Light",
 
   "itemGroup.cibusTab": "Cibus"
 }

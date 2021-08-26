@@ -7,16 +7,14 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 
-public class SteelBlock extends OreBlock {
+public class SteelBlock extends Block {
     public SteelBlock() {
-        super(Properties.of(Material.STONE)
+        super(Properties.of(Material.METAL)
                 .harvestLevel(1)
-                .sound(SoundType.STONE)
+                .sound(SoundType.METAL)
                 .harvestTool(ToolType.PICKAXE)
                 .strength(6)
-                .requiresCorrectToolForDrops()
-
-        );
+                .requiresCorrectToolForDrops());
 
 
     }

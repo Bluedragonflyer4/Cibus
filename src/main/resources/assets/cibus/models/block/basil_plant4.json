@@ -1,0 +1,6 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "cibus:blocks/basil_plant_stage4"
+  }
+}

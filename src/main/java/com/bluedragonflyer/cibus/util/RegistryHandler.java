@@ -1,9 +1,7 @@
 package com.bluedragonflyer.cibus.util;
 
 import com.bluedragonflyer.cibus.Cibus;
-import com.bluedragonflyer.cibus.blocks.BlockItemBase;
-import com.bluedragonflyer.cibus.blocks.CarbonOreBlock;
-import com.bluedragonflyer.cibus.blocks.TomatoPlant;
+import com.bluedragonflyer.cibus.blocks.*;
 import com.bluedragonflyer.cibus.food.*;
 import com.bluedragonflyer.cibus.items.*;
 import com.bluedragonflyer.cibus.tools.ModItemTier;
@@ -50,13 +48,9 @@ public class RegistryHandler {
     public static final RegistryObject<Item> BASIL = ITEMS.register("basil", ItemBase::new);
 
 
-
-
-
     //Tools
     public static final RegistryObject<SwordItem> KNIFE = ITEMS.register("knife", () ->
             new SwordItem(ModItemTier.STEEL, 2, -2.5F, new Item.Properties().tab(Cibus.TAB).stacksTo(1)));
-
 
     //Edibles
     public static final RegistryObject<Chocolate> CHOCOLATE = ITEMS.register("chocolate", Chocolate::new);
@@ -79,14 +73,26 @@ public class RegistryHandler {
     public static final RegistryObject<Item> SPAGHETTI_CARBONARA = ITEMS.register("spaghetti_carbonara", Spaghetti_Carbonara::new);
     public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato", Tomato::new);
 
-
     //Blocks
     public static final RegistryObject<Block> CARBON_ORE_BLOCK = BLOCKS.register("carbon_ore", CarbonOreBlock::new);
+    public static final RegistryObject<Block> STEEL_BLOCK = BLOCKS.register("steel_block", SteelBlock::new);
     public static final RegistryObject<Block> TOMATO_PLANT = BLOCKS.register("tomato_plant",TomatoPlant::new);
+    public static final RegistryObject<Block> BASIL_PLANT = BLOCKS.register("basil_plant", BasilPlant::new);
+    public static final RegistryObject<Block> KITCHEN_TILE = BLOCKS.register("kitchen_tile", KitchenTile::new);
+    public static final RegistryObject<Block> FANCY_FLOOR = BLOCKS.register("fancy_floor", FancyFloor::new);
+    public static final RegistryObject<Block> COUNTER_LIGHT = BLOCKS.register("counter_light", CounterLight::new);
+
+
 
     //Block Items
     public static final RegistryObject<Item> CARBON_ORE_ITEM = ITEMS.register("carbon_ore", () -> new BlockItemBase(CARBON_ORE_BLOCK.get()));
+    public static final RegistryObject<Item> STEEL_BLOCK_ITEM = ITEMS.register("steel_block", () -> new BlockItemBase(STEEL_BLOCK.get()));
     public static final RegistryObject<Item> TOMATO_SEED = ITEMS.register("tomato_seed", () -> new BlockItemBase(TOMATO_PLANT.get()));
+    public static final RegistryObject<Item> BASIL_SEED = ITEMS.register("basil_seed", () -> new BlockItemBase(BASIL_PLANT.get()));
+    public static final RegistryObject<Item> KITCHEN_TILE_ITEM = ITEMS.register("kitchen_tile", () -> new BlockItemBase(KITCHEN_TILE.get()));
+    public static final RegistryObject<Item> FANCY_FLOOR_ITEM = ITEMS.register("fancy_floor", () -> new BlockItemBase(FANCY_FLOOR.get()));
+    public static final RegistryObject<Item> COUNTER_LIGHT_ITEM = ITEMS.register("counter_light", () -> new BlockItemBase(COUNTER_LIGHT.get()));
+
 
     
 }
